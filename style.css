@@ -157,6 +157,54 @@
     font-weight: 300;
     color: white;
   }
+
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  .resume-section {
+    padding: 5rem 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  .resume-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+  
+  .resume-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-download-btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 2rem;
+    background: var(--gradient-primary);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+  }
+  
+  .resume-download-btn:hover {
+    background: var(--gradient-secondary);
+    box-shadow: 0 5px 15px rgba(255, 101, 132, 0.4);
+  }
+    
   
   @keyframes blink {
     from, to { border-color: transparent }
@@ -205,14 +253,17 @@
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.3s ease;
+    
   }
   
   .skill-card:hover::before {
     transform: scaleX(1);
+    /* content: "\f0c0"; */
   }
   
   .skill-card:hover {
     transform: translateY(-5px);
+    
   }
   
   .skill-card i {
