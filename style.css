@@ -161,7 +161,7 @@
   .about-content {
     max-width: 800px;
     margin: 0 auto;
-    text-align: center;
+    text-align: justify;
     background: white;
     padding: 2rem;
     border-radius: 10px;
